@@ -57,12 +57,6 @@ button {
   cursor: pointer;
 }
 
-button:link, button:visited {
-  background-color: #4c6ef5;
-  border: 0.1rem solid #4c6ef5;
-
-}
-
 button:hover, button:active {
   background-color: #4c6ef5;
   border: 0.1rem solid #4c6ef5;
@@ -145,6 +139,7 @@ button:hover, button:active {
 .reset-btn:hover {
   background: #868e96;
   border: 0.1rem solid #868e96;
+  color: #fff;
 }
 
 .download-app {
