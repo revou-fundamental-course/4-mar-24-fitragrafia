@@ -16,7 +16,7 @@
 
 <body>
 	<header>
-		<h1 class="title">BMI Calculator &minus; Arifitra</h1>
+		<h1 class="title">BMI Calculator</h1>
 	</header>
 	<main>
 		<div class="main-container">
@@ -31,8 +31,10 @@
 
 					<div class="input-radio">
 						<label><strong>Jenis Kelamin</strong></label><br />
+
 						<input type="radio" name="sex" id="sex-man"><label
 							for="sex-man">&nbsp;<strong>Laki-laki</strong></label>&nbsp;&nbsp;
+
 						<input type="radio" name="sex" id="sex-woman"><label
 							for="sex-woman">&nbsp;<strong>Perempuan</strong></label>
 					</div>
@@ -40,24 +42,24 @@
 					<form class="inline">
 						<div class="input-icons">
 
-							<label for="body-weight"><strong>Berat&nbsp;Badan&nbsp;(kg)</strong></label><br />
+							<label for="body-weight"><strong>Berat Badan (kg)</strong></label><br />
 							<i class="fa fa-pencil icon" aria-hidden="true"></i><input class="input-field" type="number"
 								id="body-weight" name="body-weight" pattern="/^-?\d+\.?\d*$/"
 								onKeyPress="if(this.value.length==3) return false;"><br />
 
-							<label for="age"><strong>Usia&nbsp;(tahun)</strong></label><br />
-							<i class="fa fa-pencil icon" aria-hidden="true"></i><input class="input-field" type="number" id="age"
-								name="age" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;"><br />
-
-							<label for="body-height"><strong>Tinggi&nbsp;badan&nbsp;(cm)</strong></label><br />
+							<label for="body-height"><strong>Tinggi badan (cm)</strong></label><br />
 							<i class="fa fa-pencil icon" aria-hidden="true"></i><input class="input-field" type="number"
 								id="body-height" name="body-height" pattern="/^-?\d+\.?\d*$/"
 								onKeyPress="if(this.value.length==3) return false;">
+
+							<label for="age"><strong>Usia (tahun)</strong></label><br />
+							<i class="fa fa-pencil icon" aria-hidden="true"></i><input class="input-field" type="number" id="age"
+								name="age" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==3) return false;"><br />
 					</form>
 
 					<div>
 						<button type="button" id="btn" class="calc-btn">Hitung BMI</button>
-						<button type="button" class="reset-btn">Reset</button>
+						<a href="index.html" class="reset-btn">Reset</a>
 					</div>
 
 				</section>
@@ -81,20 +83,23 @@
 			</div>
 			<div class="container-item">
 				<h2>Result</h2>
-				<div id="result" class="container-result">
-					<h3>Berat Badan (var)</h3>
-					<h1>(var)</h1>
-					<h4>Anda memiliki berat badan (var)</h4>
-					<button type="button">Download Hasil BMI</button>
+
+				<div id="result">
+					<h3>Kategori Berat Badan : &minus;</h3>
+					<h1>&minus;</h1>
+					<h4>Anda memiliki berat badan : &minus;</h4>
+					<a href="#" class="button">Download Hasil BMI</a>
 				</div>
-				<p>Hasil BMI diantara (var) dan (var)</p>
-				<p>Anda berada dalam kategori (var) atau (var).<br />
-					(var)=Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalori makanan yang dikonsumsi dan
-					berolahraga. Jika BMI Anda berada dalam kategori ini maka (var).</p>
+
+				<div id="comment">
+					<p>Hasil BMI : &minus;</p>
+					<p>Anda berada dalam kategori : &minus;<br />
+						Solusi yang kami sarankan : &minus;</p>
+				</div>
 
 				<section class="btn">
-					<button type="button">Konsultasi Ahli Gizi Via Aplikasi</button>
-					<button type="button">Registrasi Online Ahli Gizi</button>
+					<a href="#" class="button">Konsultasi Ahli Gizi Via Aplikasi</a>
+					<a href="#" class="button">Registrasi Online Ahli Gizi</a>
 				</section>
 
 				<p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda
@@ -109,8 +114,8 @@
 					</ul>
 
 					<section class="btn btn-2">
-						<button type="button">Konsultasi Dokter Via Aplikasi</button>
-						<button type="button">Registrasi Online Sekarang</button>
+						<a href="#" class="button">Konsultasi Dokter Via Aplikasi</a>
+						<a href="#" class="button">Registrasi Online Sekarang</a>
 					</section>
 
 				</div>
