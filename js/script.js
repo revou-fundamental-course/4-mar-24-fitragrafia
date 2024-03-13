@@ -45,29 +45,29 @@ function calculateBMI() {
       // RESULT CONTENTS
       if (bmi < 18.6)
           result.innerHTML =  
-          `<h3>Kategori Berat Badan : UNDERWEIGHT</h3>
+          `<h3 style="text-align: center;">Kategori Berat Badan : UNDERWEIGHT</h3>
 					<h1 style="color: #000;">${bmi}</h1>
-					<h4>Anda memiliki berat badan KURUS</h4>
+					<h4 style="text-align: center;">Anda memiliki berat badan KURUS</h4>
           <a href="#" class="button">Download Hasil BMI</a>`;
 
       else if (bmi >= 18.6 && bmi < 24.9) 
           result.innerHTML = 
-          `<h3>Kategori Berat Badan : HEALTHY</h3>
+          `<h3 style="text-align: center;">Kategori Berat Badan : HEALTHY</h3>
 					<h1 style="color: green;">${bmi}</h1>
-					<h4>Anda memiliki berat badan NORMAL</h4>
+					<h4 style="text-align: center;">Anda memiliki berat badan NORMAL</h4>
           <a href="#" class="button">Download Hasil BMI</a>`;
 
       else if (bmi >= 25 && bmi < 29.9) 
           result.innerHTML = 
-          `<h3>Kategori Berat Badan : OVERWEIGHT</h3>
+          `<h3 style="text-align: center;">Kategori Berat Badan : OVERWEIGHT</h3>
 					<h1 style="color: orange;">${bmi}</h1>
-					<h4>Anda memiliki berat badan BERLEBIH</h4>
+					<h4 style="text-align: center;">Anda memiliki berat badan BERLEBIH</h4>
           <a href="#" class="button">Download Hasil BMI</a>`;
 
       else result.innerHTML =
-          `<h3>Kategori Berat Badan : OBESE</h3>
+          `<h3 style="text-align: center;">Kategori Berat Badan : OBESE</h3>
 					<h1 style="color: red;">${bmi}</h1>
-					<h4>Anda memiliki berat badan TERLALU GEMUK</h4>
+					<h4 style="text-align: center;">Anda memiliki berat badan TERLALU GEMUK</h4>
           <a href="#" class="button">Download Hasil BMI</a>`;
 
       // COMMENT CONTENTS

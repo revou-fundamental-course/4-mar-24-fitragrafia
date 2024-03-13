@@ -202,12 +202,12 @@ button:hover, button:active {
     text-align: center;
   }
 
-h4 {
-  text-align: center;
-}
-
   p {
     text-align: left;
+  }
+
+  #result {
+    padding: 3.2rem 2rem;
   }
 
   .button {
