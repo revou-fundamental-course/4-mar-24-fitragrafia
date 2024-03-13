@@ -45,6 +45,48 @@ ul li {
   text-align: center;
 }
 
+/* CONTAINERS */
+.main-container {
+  width: 140rem;
+  margin: 3.2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 8rem;
+}
+
+.container-item {
+  width: 100%;
+}
+
+.container-form {
+  background-color: #e9ecef;
+  padding: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+#result, .description {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 0;
+  gap: 2.4rem;
+}
+
+.description-gap {
+  gap: 0.4rem;
+}
+
+.title {
+  text-align: center;
+  margin: 3.2rem;
+}
+
+.feature-title {
+  text-align: left;
+}
+
 /* BUTTONS */
 button, .button {
   padding: 0.8rem 2rem;
@@ -101,48 +143,6 @@ button:hover, button:active {
 
 .btn-2 {
   margin-top: 2rem;
-}
-
-/* CONTAINERS */
-.main-container {
-  width: 140rem;
-  margin: 3.2rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: 8rem;
-}
-
-.container-item {
-  width: 100%;
-}
-
-.container-form {
-  background-color: #e9ecef;
-  padding: 2.4rem;
-  margin-bottom: 2.4rem;
-}
-
-#result, .description {
-  background-color: #e9ecef;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3.2rem 0;
-  gap: 2.4rem;
-}
-
-.description-gap {
-  gap: 0.4rem;
-}
-
-.title {
-  text-align: center;
-  margin: 3.2rem;
-}
-
-.feature-title {
-  text-align: left;
 }
 
 /* APP DOWNLOAD SEGMENT */
