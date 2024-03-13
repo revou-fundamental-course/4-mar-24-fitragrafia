@@ -191,7 +191,7 @@ button:hover, button:active {
 /* RESPONSIVE PAGE */
 @media (max-width: 48rem) {
   .main-container {
-    width: 40rem;
+    width: 32rem;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
@@ -200,6 +200,10 @@ button:hover, button:active {
 
   h2 {
     text-align: center;
+  }
+
+  .button {
+    font-size: 1.4rem;
   }
 
   .btn {
@@ -221,6 +225,7 @@ button:hover, button:active {
 
   .description > h3 {
     text-align: center;
+    font-size: 1.6rem;
   }
 }
 
