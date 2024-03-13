@@ -202,6 +202,10 @@ button:hover, button:active {
     text-align: center;
   }
 
+  p {
+    text-align: left;
+  }
+
   .button {
     font-size: 1.4rem;
   }
