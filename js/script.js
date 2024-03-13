@@ -25,7 +25,7 @@ function calculateBMI() {
 
   // RADIO CHECK
   if (male.checked==false && female.checked==false)
-      result.innerHTML = `<h1 style="color: red; padding: 8.5rem 0;">Pilih Jenis Kelamin Dahulu!</h1>`;
+      result.innerHTML = `<h2 style="color: red; padding: 8.5rem 0;">Pilih Jenis Kelamin Dahulu!</h2>`;
   
   // BMI CALCULATION FIELD CHECK
   else if (weight === "" || isNaN(weight)) 
