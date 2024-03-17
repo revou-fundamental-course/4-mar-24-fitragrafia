@@ -29,7 +29,7 @@
 
 				<section class="container-form">
 
-					<div class="input-radio">
+					<div class="input-radio" id="input-data-radio">
 						<label><strong>Jenis Kelamin</strong></label><br />
 
 						<input type="radio" name="sex" id="sex-man">
@@ -39,7 +39,7 @@
 						<label for="sex-woman">&nbsp;<strong>Perempuan</strong></label>
 					</div>
 
-					<form class="inline">
+					<form class="inline" id="input-data-bmi">
 						<div class="input-icons">
 
 							<label for="body-weight"><strong>Berat Badan (kg)</strong></label><br />
@@ -59,7 +59,8 @@
 
 					<div>
 						<button type="button" id="btn" class="calc-btn">Hitung BMI</button>
-						<a href="index.html" class="reset-btn">Reset</a>
+						<input type="button" value="Reset" class="reset-btn" onclick="fun()">
+						<!-- <a href="index.html" class="reset-btn">Reset</a> -->
 					</div>
 
 				</section>

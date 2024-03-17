@@ -4,6 +4,10 @@ window.onload = () => {
   button.addEventListener("click", calculateBMI);
 };
 
+function fun() {  
+  document.getElementById("input-data-bmi").reset();
+}
+
 function calculateBMI() {
 
   let male = document.getElementById("sex-man");
